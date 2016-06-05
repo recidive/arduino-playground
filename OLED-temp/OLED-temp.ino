@@ -52,8 +52,8 @@ void drawTemp(double temp) {
   dtostrf(temp, 6, 1, buf);
 
   // Set font and draw the string.
-  u8g.setFont(u8g_font_fub25);
-  u8g.drawStr(0, 50, buf);
+  u8g.setFont(u8g_font_fub42n);
+  u8g.drawStr(0, 55, buf);
 }
 
 // Read temperature sensor.
